@@ -143,7 +143,7 @@ switch (job) {
            }
 */
 
-
+/*
 var johnHeight = 172;
 var johnAge = 26;
 
@@ -153,7 +153,7 @@ var friendAge = 165;
 var johnScore = johnHeight + (5 * johnAge);
 var friendScore = friendHeight + (5 * friendAge);
 
-/*
+j
 if (johnScore > friendScore) {
     console.log("Johns score is higher!");
 } else if (johnScore === friendScore) {
@@ -161,7 +161,8 @@ if (johnScore > friendScore) {
 } else {
     console.log("Friend's score is higher!");
 }
-*/
+
+
 
 var maryHeight = 158;
 var maryAge = 31;
@@ -176,9 +177,174 @@ if (johnScore > friendScore && johnScore > maryScore) {
 } else {
     console.log("It's a draw")
 }
+*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//lecture: Functions
+
+function calculateAge(yearOfBirth) {
+    var age = 2016 - yearOfBirth;
+    return age;
+}
+
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1969);
+var ageMary = calculateAge(1948);
+//console.log(ageMary);
+
+function yearsUntilRetirement(name, year) {
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+    
+    if (retirement > 0) {
+    console.log(name + ' retires in ' + retirement + ' years.');
+    } else {
+    console.log(name + ' is already retired.');
+    }
+}
+
+
+
+yearsUntilRetirement('John', 1990);
+yearsUntilRetirement('Mike', 1969);
+yearsUntilRetirement('Mary', 1948);
+
+*/
+
+/*
+//lecture: Statements and Expressions
+
+function somefun(par) {
+    
+}
+
+var somefun = function(par) {
+    
+}
+
+
+//Expressions
+3 + 4;
+var x = 3;
+
+
+
+//statements
+if (x === 0) {
+    //do something
+}
+
+*/
+
+//Lecture: Arrays 
+/*
+var names = ['John', 'Jane', 'Mark'];
+var years = new Array(1990, 1969, 1948);
+
+console.log(names[2]);
+names[1] = 'Ben';
+console.log(names);
+
+var john = ['John', 'Smith', 1969, 'teacher', false];
+
+john.push('blue');
+john.unshift('Mr.');
+john.pop();
+john.shift();
+console.log(john);
+
+////when an item is not in an array it returns -1
+if (john.indexOf('designer') === - 1) {
+    console.log('John is not a teacher');
+}
+
+*/
+
+
+// Lecture: Objects
+/*
+var john = {
+    name: 'John', 
+    lastName: 'Smith',
+    yearOfBirth: 1990,
+    job: 'teacher', 
+    isMarried: false
+};
+
+console.log(john.lastName);
+console.log(john['lastName']);
+
+var xyz = 'job';
+console.log(john[xyz]);
+
+john.lastName = 'Miller';
+john['job'] = 'programmer';
+
+console.log(john);
+
+var jane = new Object();
+jane.name = 'Jane';
+jane.lastName = 'Smith';
+jane['yearOfBirth'] = 1969;
+jane['job'] = 'retired';
+jane['isMarried'] = true;
+
+console.log(jane);
+*/
+
+// Lecture: Objects and Methods
+/*
+var john = {
+    name: 'John', 
+    lastName: 'Smith',
+    yearOfBirth: 1990,
+    job: 'teacher', 
+    isMarried: false,
+    family: ['Jane', 'Mark', 'Bob'],
+    calculateAge: function(yearOfBirth) {
+        return 2016 - this.yearOfBirth;
+    }
+    
+};
+
+
+
+
+var john = {
+    name: 'John', 
+    lastName: 'Smith',
+    yearOfBirth: 1990,
+    job: 'teacher', 
+    isMarried: false,
+    family: ['Jane', 'Mark', 'Bob'],
+    calculateAge: function(yearOfBirth) {
+        this.age = 2016 - this.yearOfBirth;
+    }
+    
+};
+
+
+john.calculateAge();
+console.log(john);
+
+*/
+
+
+// Lecture: Loops and Iterations
 
 
 
