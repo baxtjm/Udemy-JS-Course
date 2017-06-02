@@ -344,7 +344,159 @@ console.log(john);
 */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Lecture: Loops and Iterations
+
+//For Loop
+
+//for (var i = 0; i < 10; i++) {
+//    console.log(i);
+//}
+//
+
+
+//var names = ['John', 'Jane', 'Mary', 'Mark', 'Bob'];
+//
+////for (var i = 0; i < names.length; i++) {
+////    console.log(names[i]);
+////}
+////
+////for (var i = names.length - 1; i >= 0 ; i--) {
+////    console.log(names[i])
+////}
+//
+//
+//
+//// while loop
+//
+////var i = 0
+////while(i < names.length) {
+////    console.log(names[i]);
+////    i++;
+////}
+////
+//
+//for (var i = 1; i < 6; i++) {
+//    
+//    
+//    if (i === 3) {
+//        break;
+////        continue;
+//    }
+//    
+//    console.log(i);
+//}
+//
+//
+//
+//
+
+
+
+//Coding Challenge 2
+
+//var years = [2001, 1985, 1994, 2014, 1973];
+//var ages = [];
+//
+//for (var i = 0; i < years.length; i++){
+//    ages[i]= 2016 - years[i];
+//}
+//
+////console.log(ages);
+//
+//for (i = 0; i < ages.length; i++)
+//    if (ages[i] >= 18) {
+//        console.log('Person ' + ages[i] +  ' years old, as if of full age.');
+//    } else {
+//        console.log('Person '  + ages[i] + ' years old, as is NOT of full age');
+//    }
+
+/*
+var years = [2001, 1985, 1994, 2014, 1973];
+
+function printFullAge(years) {
+   var ages = [];
+   var fullAges = [];
+var ages = [];
+
+for (var i = 0; i < years.length; i++){
+    ages[i]= 2016 - years[i];
+}
+
+//console.log(ages);
+
+for (i = 0; i < ages.length; i++) {
+    
+
+    if (ages[i] >= 18) {
+        console.log('Person ' + ages[i] +  ' years old, as if of full age.');
+        fullAges.push(true);
+    } else {
+        console.log('Person '  + ages[i] + ' years old, as is NOT of full age');
+        fullAges.push(false);
+    }
+}
+   return fullAges; 
+}
+
+var full_1 = printFullAge(years);
+var full_2 = printFullAge([2012, 1915, 1999])
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
